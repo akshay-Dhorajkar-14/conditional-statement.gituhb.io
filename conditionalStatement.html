@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Conditioinal Statement</title>
+</head>
+<body>
+    <h1>Conditonal statements</h1>
+
+<script>
+    // 1) if statement
+    var a=10;
+    if(a=10){
+        console.log("The Number you entered is right ");
+    }
+    // 2) if else statement
+    var b=20;
+    if(a>=20){
+        console.log("The number you entered is right");
+    }
+    else{
+        console.log("Invalid Number");
+    }
+
+    // 3)if else ladder
+    var color ="red"
+    if(color="red"){
+        console.log("Your fav color is: red");
+    }
+    else if(color="green"){
+        console.log("Your fav color is : greeen");
+    }
+    else if(color="blue"){
+        console.log("Your fav color is : blue");      
+    }
+    else{
+        console.log("The color you entered is incorrect");
+    }
+
+// 4) Switch case 
+var num=1
+switch(num){
+    case 0 :console.log("Zero");
+break;
+case 1 : console.log("One");
+break;
+case 2 : console.log("Two");
+break;
+case 3 : console.log("Three");
+break;
+case 4 : console.log("Four");
+break;
+case 5 : console.log("Five");
+break;
+case 6 : console.log("six");
+break;
+case 7 :console.log("Seven");
+break;
+case 8 : console.log("Eight");
+break;
+case 9 : console.log("Nine");
+break;
+default:console.log("Invalid number");
+
+}
+// 5)Ternary operator
+    
+
+
+var userName = window.prompt("Enter your userName :")
+var password=parseInt(window.prompt("Enter your password :"))
+if(userName ==="Felix" && password === 123){
+    console.log("login successfull")
+}else{
+    console.log("login failed")
+}
+// => string to number 
+var i = "1"
+console.log(typeof i)
+var number=parseInt(i)
+console.log( typeof number)
+
+
+// => NUMBERE TO STRING
+ var i = 1
+ console.log(typeof i)
+ var string = toString(i)
+ console.log( typeof string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>    
+</body>
+</html>
